@@ -1,0 +1,10 @@
+{
+  "resourceName": "fridaydynamodbsvgmeter",
+  "tableName": "fridaydynamodbsvgmetertable",
+  "partitionKey": {
+    "fieldName": "Datetime",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

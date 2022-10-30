@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-svgmeterapi-dev-14206-authRole",
+      "UnauthRoleArn": "arn:aws:iam::619464233190:role/amplify-svgmeterapi-dev-14206-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::619464233190:role/amplify-svgmeterapi-dev-14206-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-svgmeterapi-dev-14206-deployment",
+      "UnauthRoleName": "amplify-svgmeterapi-dev-14206-unauthRole",
+      "StackName": "amplify-svgmeterapi-dev-14206",
+      "StackId": "arn:aws:cloudformation:us-east-1:619464233190:stack/amplify-svgmeterapi-dev-14206/976d8cd0-5815-11ed-8408-126d2bf3c35f",
+      "AmplifyAppId": "d2hkj9dts3tatn"
+    },
+    "categories": {
+      "function": {
+        "svgmeterrestapilambda": {
+          "deploymentBucketName": "amplify-svgmeterapi-dev-14206-deployment",
+          "s3Key": "amplify-builds/svgmeterrestapilambda-514f4434544b564e3553-build.zip"
+        }
+      },
+      "storage": {
+        "fridaydynamodbsvgmeter": {}
+      },
+      "api": {
+        "SVGmeterrestapi": {}
+      }
+    }
+  }
+}
