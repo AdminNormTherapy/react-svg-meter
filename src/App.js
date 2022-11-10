@@ -32,11 +32,6 @@ class App extends Component {
       <div className="App">
         <div className="header">Main Output Display</div>
         <div className="group">
-          <div className="title">Spectrum Sample R and L</div>
-          <div className="meter"><Meter percent={.3} color={#FFEB3B} /></div>
-          <div className="meter"><Meter percent={.8} color={#FFEB3B} /></div>
-        </div>
-        <div className="group">
           <div className="title">Word Deviation and Coherence</div>
           <div className="meter"><Meter percent={.2} color={#FFEB3B} rounded={false}/></div>
           <div className="meter"><Meter percent={.6} color={#FFEB3B} rounded={false}/></div>
@@ -47,7 +42,7 @@ class App extends Component {
           <div className="meter"><Meter percent={this.state.r2} color={#FFEB3B} animate={true}/></div>
         </div>
         <div className="group">
-          <div className="title">colorful</div>
+          <div className="title">Spectrum Sample R and L</div>
           <div className="meter"><Meter percent={.4} color={'#FFEB3B'} rounded={false}/></div>
           <div className="meter"><Meter percent={.9} color={'#FFEB3B'}/></div>
         </div>
