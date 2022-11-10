@@ -39,17 +39,17 @@ class App extends Component {
         <div className="group">
           <div className="title">Face Vector Deviation and Coherence</div>
           <div className="meter"><Meter percent={this.state.r1} animate={true} rounded={false}/></div>
-          <div className="meter"><Meter percent={this.state.r2} animate={true} rounded={false}//></div>
+          <div className="meter"><Meter percent={this.state.r2} animate={true} rounded={false}/></div>
         </div>
         <div className="group">
           <div className="title">Spectrum Sample R and L</div>
           <div className="meter"><Meter percent={.4} rounded={false}/></div>
-          <div className="meter"><Meter percent={.9} rounded={false}//></div>
+          <div className="meter"><Meter percent={.9} rounded={false}/></div>
         </div>
         <div className="group">
           <div className="title">Overall Deviation</div>
           <div className="meter"><Meter percent={this.state.r3*this.state.r1} animate={true} width={250} height={17} rounded={false}/></div>
-          <div className="meter"><Meter percent={this.state.r3*this.state.r2} animate={true}  width={250} height={17} rounded={false}//></div>
+          <div className="meter"><Meter percent={this.state.r3*this.state.r2} animate={true}  width={250} height={17} rounded={false}/></div>
         </div>
       </div>
     );
